@@ -1,0 +1,123 @@
+// classes & structs program.cs
+using System;
+using CSharpFundamentals.Math;
+
+namespace CSharpFundamentals
+{
+        internal class Program
+        {
+            static void Main(string[] args)
+            {
+                var john = new Person();
+                john.FirstName = "John";
+                john.LastName = "Smith";
+                john.Introduce();
+
+                Calculator calculator = new Calculator();
+                var result = calculator.Add(1, 2);
+                Console.WriteLine(result);
+            }
+        }
+    }
+
+// arrays
+int[] numbers = new int[3];
+var numbers = new int[3];
+numbers[0] = 1;
+
+Console.WriteLine(numbers[0]);
+Console.WriteLine(numbers[1]);
+Console.WriteLine(numbers[2]);
+
+var flags = new bool[3];
+flags[0] = true;
+
+Console.WriteLine(flags[0]);
+Console.WriteLine(flags[1]);
+Console.WriteLine(flags[2]);
+
+var names = new string[3] { "Jack", "John", "Mary" };
+
+// string
+var firstName = "Brig";
+var lastName = "Young";
+
+var fullName = firstName + " " + lastName;
+var myFullName = string.Format("My name is {0} {1}", firstName, lastName);
+
+var names = new string[3] { "John", "Jack", "Mary" };
+var formattedNames = string.Join(", ", names);
+
+var text = "@Hi John" +
+           "Look into the following paths" +
+           "c:\folder1\folder2" +
+           "c:\folder3\folder4";
+Console.WriteLine(text);
+
+//enums
+public enum shippingMethod
+{
+    RegularAirMail = 1,
+    RegisteredAirMail = 2,
+    Express = 3
+}
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+
+        var method = shippingMethod.Express;
+        Console.WriteLine((int)method);
+
+        var methodId = 3;
+        Console.WriteLine((shippingMethod)methodId);
+
+        Console.WriteLine(method.ToString());
+
+        var methodName = "Express";
+        var ShippingMethod = (shippingMethod)Enum.Parse(typeof(shippingMethod), methodName);
+        
+    }
+
+//reference types & value types
+var a = 10;
+var b = a;
+b++;
+
+Console.WriteLine(string.Format("a: {0}, b: {1}", a, b));
+
+&
+
+var a = 10;
+var b = a;
+b++;
+
+Console.WriteLine(string.Format("a: {0}, b: {1}", a, b));
+
+var array1 = new int[3] {1, 2, 3};
+var array2 = array1;
+array2[0] = 0;
+
+&
+
+static void Main(string[] args)
+{
+    var number = 1;
+    Increment(number);
+    Console.WriteLine(number);
+
+    var person = new Person() { Age = 20 };
+    MakeOld(person);
+    Console.WriteLine(person.Age);
+}
+
+public static void Increment(int number)
+{
+    number += 10;
+}
+
+public static void MakeOld(Person person)
+{
+    person.Age += 10;
+}

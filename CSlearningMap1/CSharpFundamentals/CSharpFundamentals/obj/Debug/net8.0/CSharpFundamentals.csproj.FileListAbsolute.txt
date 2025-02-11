@@ -1,0 +1,15 @@
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.AssemblyInfoInputs.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.AssemblyInfo.cs
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.csproj.CoreCompileInputs.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.sourcelink.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\bin\Debug\net8.0\CSharpFundamentals.exe
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\bin\Debug\net8.0\CSharpFundamentals.deps.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\bin\Debug\net8.0\CSharpFundamentals.runtimeconfig.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\bin\Debug\net8.0\CSharpFundamentals.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\bin\Debug\net8.0\CSharpFundamentals.pdb
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\obj\Debug\net8.0\refint\CSharpFundamentals.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.pdb
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.genruntimeconfig.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\CSharpFundamentals\CSharpFundamentals\obj\Debug\net8.0\ref\CSharpFundamentals.dll
