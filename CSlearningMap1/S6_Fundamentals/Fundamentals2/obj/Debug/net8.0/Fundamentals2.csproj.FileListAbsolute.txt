@@ -1,0 +1,15 @@
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\bin\Debug\net8.0\Fundamentals2.exe
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\bin\Debug\net8.0\Fundamentals2.deps.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\bin\Debug\net8.0\Fundamentals2.runtimeconfig.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\bin\Debug\net8.0\Fundamentals2.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\bin\Debug\net8.0\Fundamentals2.pdb
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\obj\Debug\net8.0\Fundamentals2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\obj\Debug\net8.0\Fundamentals2.AssemblyInfoInputs.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\obj\Debug\net8.0\Fundamentals2.AssemblyInfo.cs
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\obj\Debug\net8.0\Fundamentals2.csproj.CoreCompileInputs.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\obj\Debug\net8.0\Fundamentals2.sourcelink.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\obj\Debug\net8.0\Fundamentals2.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\obj\Debug\net8.0\refint\Fundamentals2.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\obj\Debug\net8.0\Fundamentals2.pdb
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\obj\Debug\net8.0\Fundamentals2.genruntimeconfig.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap1\Fundamentals2\Fundamentals2\obj\Debug\net8.0\ref\Fundamentals2.dll
