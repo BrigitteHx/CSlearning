@@ -1,0 +1,80 @@
+code notes/ joining in with explanation & demo video's
+
+// variabeles and contants:
+byte number = 2;
+int count = 10;
+float totalPice = 20.95f;
+char character = 'A';
+string firstName = "Brig";
+bool isWorking = false;
+
+var number = 2;
+var count = 10;
+var totalPice = 20.95f;
+var character = 'A';
+var firstName = "Brig";
+var isWorking = false;
+
+Console.WriteLine(number);
+Console.WriteLine(count);
+Console.WriteLine(totalPice);
+Console.WriteLine(character);
+Console.WriteLine(firstName);
+Console.WriteLine(isWorking);
+
+// example system usage
+Console.WriteLine("{0} {1}", float.MinValue, float.MaxValue);
+
+
+// implicit type:
+byte b = 1;
+int i = b;
+Console.WriteLine();
+
+// type conversion cast:
+int i = 1;
+byte b = (byte)i;
+Console.WriteLine(b);
+        
+// non compatible:
+string number = "1234";
+int num = Convert.ToInt32(number);
+
+// exception type conversion
+try
+{
+    var number = "1234";
+    byte b = Convert.ToByte(number);
+    Console.WriteLine(b);
+}
+catch (Exception)
+{
+    Console.WriteLine("nuh uh");
+}
+
+try
+{
+    string str = "true";
+    bool b = Convert.ToBoolean(str);
+    Console.WriteLine(b);
+}
+catch (Exception)
+{
+    Console.WriteLine("nuh uh");
+}
+
+// operators
+
+            var a = 10;
+            var b = 3;
+            var c = 3;
+
+            Console.WriteLine(a + b);
+            Console.WriteLine(a / b);
+            Console.WriteLine((float)a + (float)b);
+            Console.WriteLine(a > b);
+            Console.WriteLine(a == b);
+            Console.WriteLine(a != b);
+            Console.WriteLine(c > b && c > a);
+            Console.WriteLine(c > b || c == a);
+            Console.WriteLine(!(c > b || c == a));
