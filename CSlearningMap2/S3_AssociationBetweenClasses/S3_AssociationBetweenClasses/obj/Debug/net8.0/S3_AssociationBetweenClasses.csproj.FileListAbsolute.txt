@@ -1,0 +1,15 @@
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\bin\Debug\net8.0\S3_AssociationBetweenClasses.exe
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\bin\Debug\net8.0\S3_AssociationBetweenClasses.deps.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\bin\Debug\net8.0\S3_AssociationBetweenClasses.runtimeconfig.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\bin\Debug\net8.0\S3_AssociationBetweenClasses.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\bin\Debug\net8.0\S3_AssociationBetweenClasses.pdb
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\obj\Debug\net8.0\S3_AssociationBetweenClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\obj\Debug\net8.0\S3_AssociationBetweenClasses.AssemblyInfoInputs.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\obj\Debug\net8.0\S3_AssociationBetweenClasses.AssemblyInfo.cs
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\obj\Debug\net8.0\S3_AssociationBetweenClasses.csproj.CoreCompileInputs.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\obj\Debug\net8.0\S3_AssociationBetweenClasses.sourcelink.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\obj\Debug\net8.0\S3_AssociationBetweenClasses.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\obj\Debug\net8.0\refint\S3_AssociationBetweenClasses.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\obj\Debug\net8.0\S3_AssociationBetweenClasses.pdb
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\obj\Debug\net8.0\S3_AssociationBetweenClasses.genruntimeconfig.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S3_AssociationBetweenClasses\S3_AssociationBetweenClasses\obj\Debug\net8.0\ref\S3_AssociationBetweenClasses.dll
