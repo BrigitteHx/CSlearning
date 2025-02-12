@@ -1,0 +1,15 @@
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\bin\Debug\net8.0\S2_Classes.exe
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\bin\Debug\net8.0\S2_Classes.deps.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\bin\Debug\net8.0\S2_Classes.runtimeconfig.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\bin\Debug\net8.0\S2_Classes.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\bin\Debug\net8.0\S2_Classes.pdb
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\obj\Debug\net8.0\S2_Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\obj\Debug\net8.0\S2_Classes.AssemblyInfoInputs.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\obj\Debug\net8.0\S2_Classes.AssemblyInfo.cs
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\obj\Debug\net8.0\S2_Classes.csproj.CoreCompileInputs.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\obj\Debug\net8.0\S2_Classes.sourcelink.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\obj\Debug\net8.0\S2_Classes.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\obj\Debug\net8.0\refint\S2_Classes.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\obj\Debug\net8.0\S2_Classes.pdb
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\obj\Debug\net8.0\S2_Classes.genruntimeconfig.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S2_Classes\S2_Classes\obj\Debug\net8.0\ref\S2_Classes.dll

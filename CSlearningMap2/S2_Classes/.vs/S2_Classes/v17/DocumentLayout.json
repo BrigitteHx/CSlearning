@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap2\\S2_Classes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44F01B1B-2527-457B-A3B9-26C5ADC7BC14}|S2_Classes\\S2_Classes.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap2\\s2_classes\\s2_classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F01B1B-2527-457B-A3B9-26C5ADC7BC14}|S2_Classes\\S2_Classes.csproj|solutionrelative:s2_classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap2\\S2_Classes\\S2_Classes\\Program.cs",
+              "RelativeDocumentMoniker": "S2_Classes\\Program.cs",
+              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap2\\S2_Classes\\S2_Classes\\Program.cs",
+              "RelativeToolTip": "S2_Classes\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:19:43.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
