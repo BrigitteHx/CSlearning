@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brigi\\source\\repos\\S4_Inheritance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7EED37-4268-4CC4-8260-9A0703B5F2B4}|S4_Inheritance\\S4_Inheritance.csproj|c:\\users\\brigi\\source\\repos\\s4_inheritance\\s4_inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A7EED37-4268-4CC4-8260-9A0703B5F2B4}|S4_Inheritance\\S4_Inheritance.csproj|solutionrelative:s4_inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\brigi\\source\\repos\\S4_Inheritance\\S4_Inheritance\\Program.cs",
+              "RelativeDocumentMoniker": "S4_Inheritance\\Program.cs",
+              "ToolTip": "C:\\Users\\brigi\\source\\repos\\S4_Inheritance\\S4_Inheritance\\Program.cs",
+              "RelativeToolTip": "S4_Inheritance\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T13:19:32.811Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
