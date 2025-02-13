@@ -1,0 +1,15 @@
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\bin\Debug\net8.0\Extensibility.exe
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\bin\Debug\net8.0\Extensibility.deps.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\bin\Debug\net8.0\Extensibility.runtimeconfig.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\bin\Debug\net8.0\Extensibility.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\bin\Debug\net8.0\Extensibility.pdb
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\obj\Debug\net8.0\Extensibility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\obj\Debug\net8.0\Extensibility.AssemblyInfoInputs.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\obj\Debug\net8.0\Extensibility.AssemblyInfo.cs
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\obj\Debug\net8.0\Extensibility.csproj.CoreCompileInputs.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\obj\Debug\net8.0\Extensibility.sourcelink.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\obj\Debug\net8.0\Extensibility.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\obj\Debug\net8.0\refint\Extensibility.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\obj\Debug\net8.0\Extensibility.pdb
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\obj\Debug\net8.0\Extensibility.genruntimeconfig.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap2\S6_Interfaces\Extensibility\Extensibility\obj\Debug\net8.0\ref\Extensibility.dll
