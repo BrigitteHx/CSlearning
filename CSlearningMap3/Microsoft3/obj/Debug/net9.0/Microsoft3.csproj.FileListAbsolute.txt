@@ -1,0 +1,15 @@
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\bin\Debug\net9.0\Microsoft3.exe
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\bin\Debug\net9.0\Microsoft3.deps.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\bin\Debug\net9.0\Microsoft3.runtimeconfig.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\bin\Debug\net9.0\Microsoft3.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\bin\Debug\net9.0\Microsoft3.pdb
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\obj\Debug\net9.0\Microsoft3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\obj\Debug\net9.0\Microsoft3.AssemblyInfoInputs.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\obj\Debug\net9.0\Microsoft3.AssemblyInfo.cs
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\obj\Debug\net9.0\Microsoft3.csproj.CoreCompileInputs.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\obj\Debug\net9.0\Microsoft3.sourcelink.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\obj\Debug\net9.0\Microsoft3.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\obj\Debug\net9.0\refint\Microsoft3.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\obj\Debug\net9.0\Microsoft3.pdb
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\obj\Debug\net9.0\Microsoft3.genruntimeconfig.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap3\Microsoft3\obj\Debug\net9.0\ref\Microsoft3.dll
