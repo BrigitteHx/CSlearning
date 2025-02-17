@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("c699219a-3464-4d90-97be-858c65533cf4")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentEnrollment.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff98598208e38227a920ea0dec911b4f9ed005a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87fff556d5dff6d84bdf7ed8e2fc16eb36d0cb8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentEnrollment.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentEnrollment.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
