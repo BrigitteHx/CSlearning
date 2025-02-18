@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "y9lkAricrp2DxSDxw+N7ihAJNsT5Ep1Dsk2UAz1XdL8=",
+  "Source": "StudentEnrollment.Api",
+  "BasePath": "_content/StudentEnrollment.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

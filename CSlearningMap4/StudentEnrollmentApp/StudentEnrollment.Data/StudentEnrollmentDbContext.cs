@@ -12,12 +12,11 @@ namespace StudentEnrollment.Data
     {
         public StudentEnrollmentDbContext(DbContextOptions<StudentEnrollmentDbContext> options) : base(options)
         {
-
+            
         }
 
         public DbSet<Course> Courses { get; set; }
         public DbSet<Student> Students { get; set; }
         public DbSet<Enrollment> Enrollments { get; set; }
-
     }
 }
