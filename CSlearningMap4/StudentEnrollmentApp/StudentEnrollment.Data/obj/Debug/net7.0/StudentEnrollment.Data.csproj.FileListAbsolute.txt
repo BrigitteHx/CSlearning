@@ -1,0 +1,13 @@
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Data\bin\Debug\net7.0\StudentEnrollment.Data.deps.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Data\bin\Debug\net7.0\StudentEnrollment.Data.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Data\bin\Debug\net7.0\StudentEnrollment.Data.pdb
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Data\obj\Debug\net7.0\StudentEnrollment.Data.csproj.AssemblyReference.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Data\obj\Debug\net7.0\StudentEnrollment.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Data\obj\Debug\net7.0\StudentEnrollment.Data.AssemblyInfoInputs.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Data\obj\Debug\net7.0\StudentEnrollment.Data.AssemblyInfo.cs
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Data\obj\Debug\net7.0\StudentEnrollment.Data.csproj.CoreCompileInputs.cache
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Data\obj\Debug\net7.0\StudentEnrollment.Data.sourcelink.json
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Data\obj\Debug\net7.0\StudentEnrollment.Data.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Data\obj\Debug\net7.0\refint\StudentEnrollment.Data.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Data\obj\Debug\net7.0\StudentEnrollment.Data.pdb
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Data\obj\Debug\net7.0\ref\StudentEnrollment.Data.dll

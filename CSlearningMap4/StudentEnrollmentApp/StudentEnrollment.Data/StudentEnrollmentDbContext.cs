@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using StudentEnrollment.Data.Configurations;
 
 namespace StudentEnrollment.Data
 {
@@ -13,6 +14,13 @@ namespace StudentEnrollment.Data
         public StudentEnrollmentDbContext(DbContextOptions<StudentEnrollmentDbContext> options) : base(options)
         {
             
+        }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.ApplyConfiguration(new CourseConfiguration());
+            builder.ApplyConfiguration(new UserRoleConfiguration());
         }
 
         public DbSet<Course> Courses { get; set; }
