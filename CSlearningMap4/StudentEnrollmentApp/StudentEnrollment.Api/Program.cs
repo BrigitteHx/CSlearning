@@ -11,14 +11,11 @@ namespace StudentEnrollment.Api
             var builder = WebApplication.CreateBuilder(args);
 
             var conn = builder.Configuration.GetConnectionString("StudentEnrollmentDbConnection");
-            builder.Services.AddDbContext<StudentEnrollmentDbContext>(options =>
-            {
-                options.UseSqlServer(conn); 
-            });
+            builder.Services.AddDbContext<StudentEnrollmentDbContext>(options => { options.UseSqlServer(conn); });
 
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("AllowAll", policy => policy.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod() );
+                options.AddPolicy("AllowAll", policy => policy.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
             });
 
             // Add services to the container.
@@ -43,27 +40,42 @@ namespace StudentEnrollment.Api
 
             app.UseAuthorization();
 
-            var summaries = new[]
-            {
-                "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-            };
+            app.MapGet("/courses",
+                async (StudentEnrollmentDbContext context) => { await context.Courses.ToListAsync(); });
 
-            app.MapGet("/weatherforecast", (HttpContext httpContext) =>
+            app.MapGet("/courses/{id}",
+                async (StudentEnrollmentDbContext context, int id) =>
+                {
+                    return await context.Courses.FindAsync(id) is Course course ? Results.Ok(course) : Results.NotFound();
+                });
+
+            app.MapPost("/courses", async (StudentEnrollmentDbContext context, Course course) =>
             {
-                var forecast = Enumerable.Range(1, 5).Select(index =>
-                    new WeatherForecast
-                    {
-                        Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                        TemperatureC = Random.Shared.Next(-20, 55),
-                        Summary = summaries[Random.Shared.Next(summaries.Length)]
-                    })
-                    .ToArray();
-                return forecast;
-            })
-            .WithName("GetWeatherForecast")
-            .WithOpenApi();
+                await context.AddAsync(course);
+                await context.SaveChangesAsync();
+                return Results.Created($"/courses/{course.Id}", course);
+            });
+
+            app.MapPut("/courses/{id}", async (StudentEnrollmentDbContext context, Course course, int id) => {
+                var recordExists = await context.Courses.AnyAsync(q => q.Id == course.Id);
+                if (!recordExists) return Results.NotFound();
+
+                context.Update(course);
+                await context.SaveChangesAsync();
+
+                return Results.NoContent();
+            });
+
+            app.MapDelete("/courses/{id}", async (StudentEnrollmentDbContext context, int id) => {
+                var record = await context.Courses.FindAsync(id);
+                if (record == null) return Results.NotFound();
+
+                context.Remove(record);
+                await context.SaveChangesAsync();
+                return Results.NoContent();
+            });
 
             app.Run();
-        }
+        } 
     }
-}
+} 
