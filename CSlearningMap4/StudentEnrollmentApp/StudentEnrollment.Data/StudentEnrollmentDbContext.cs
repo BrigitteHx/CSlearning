@@ -15,7 +15,7 @@ namespace StudentEnrollment.Data
     {
         public StudentEnrollmentDbContext(DbContextOptions<StudentEnrollmentDbContext> options) : base(options)
         {
-            
+
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -34,9 +34,8 @@ namespace StudentEnrollment.Data
     {
         public StudentEnrollmentDbContext CreateDbContext(string[] args)
         {
-
             // Get environment
-            // string environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+            //string environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 
             // Build config
             IConfiguration config = new ConfigurationBuilder()
@@ -49,7 +48,7 @@ namespace StudentEnrollment.Data
             var connectionString = config.GetConnectionString("StudentEnrollmentDbConnection");
             optionsBuilder.UseSqlServer(connectionString);
             return new StudentEnrollmentDbContext(optionsBuilder.Options);
-
         }
     }
+
 }

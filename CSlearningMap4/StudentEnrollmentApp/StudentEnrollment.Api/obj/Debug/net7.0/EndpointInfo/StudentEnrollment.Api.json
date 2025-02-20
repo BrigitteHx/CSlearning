@@ -79,7 +79,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Course"
+                  "$ref": "#/components/schemas/CourseDto"
                 }
               }
             }
@@ -109,18 +109,18 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Course"
+                "$ref": "#/components/schemas/CourseDto"
               }
             }
           },
           "required": true
         },
         "responses": {
-          "200": {
-            "description": "OK"
-          },
           "404": {
             "description": "Not Found"
+          },
+          "204": {
+            "description": "No Content"
           }
         }
       },
@@ -142,7 +142,48 @@
         ],
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Course"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/api/Course/GetStudents/{id}": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "operationId": "GetCourseDetailsById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CourseDetailsDto"
+                }
+              }
+            }
           },
           "404": {
             "description": "Not Found"
@@ -164,7 +205,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Enrollment"
+                    "$ref": "#/components/schemas/EnrollmentDto"
                   }
                 }
               }
@@ -181,7 +222,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Enrollment"
+                "$ref": "#/components/schemas/CreateEnrollmentDto"
               }
             }
           },
@@ -224,7 +265,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Enrollment"
+                  "$ref": "#/components/schemas/EnrollmentDto"
                 }
               }
             }
@@ -254,18 +295,18 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Enrollment"
+                "$ref": "#/components/schemas/EnrollmentDto"
               }
             }
           },
           "required": true
         },
         "responses": {
-          "200": {
-            "description": "OK"
-          },
           "404": {
             "description": "Not Found"
+          },
+          "204": {
+            "description": "No Content"
           }
         }
       },
@@ -287,7 +328,14 @@
         ],
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Enrollment"
+                }
+              }
+            }
           },
           "404": {
             "description": "Not Found"
@@ -309,7 +357,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Student"
+                    "$ref": "#/components/schemas/StudentDto"
                   }
                 }
               }
@@ -326,7 +374,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/CreateStudentDto"
               }
             }
           },
@@ -369,7 +417,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Student"
+                  "$ref": "#/components/schemas/StudentDto"
                 }
               }
             }
@@ -399,18 +447,18 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/StudentDto"
               }
             }
           },
           "required": true
         },
         "responses": {
-          "200": {
-            "description": "OK"
-          },
           "404": {
             "description": "Not Found"
+          },
+          "204": {
+            "description": "No Content"
           }
         }
       },
@@ -432,7 +480,48 @@
         ],
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/api/Student/GetDetails/{id}": {
+      "get": {
+        "tags": [
+          "Student"
+        ],
+        "operationId": "GetStudentDetailsById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StudentDetailsDto"
+                }
+              }
+            }
           },
           "404": {
             "description": "Not Found"
@@ -473,6 +562,38 @@
           "credits": {
             "type": "integer",
             "format": "int32"
+          },
+          "enrollments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Enrollment"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CourseDetailsDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "credits": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "students": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/StudentDto"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -503,6 +624,46 @@
             "format": "int32"
           },
           "title": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateEnrollmentDto": {
+        "type": "object",
+        "properties": {
+          "courseId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "studentId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateStudentDto": {
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateofBirth": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "idNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "picture": {
             "type": "string",
             "nullable": true
           }
@@ -549,6 +710,26 @@
         },
         "additionalProperties": false
       },
+      "EnrollmentDto": {
+        "type": "object",
+        "properties": {
+          "courseId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "studentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "course": {
+            "$ref": "#/components/schemas/CourseDto"
+          },
+          "student": {
+            "$ref": "#/components/schemas/StudentDto"
+          }
+        },
+        "additionalProperties": false
+      },
       "Student": {
         "type": "object",
         "properties": {
@@ -591,6 +772,76 @@
           "picture": {
             "type": "string",
             "nullable": true
+          },
+          "enrollments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Enrollment"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StudentDetailsDto": {
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateofBirth": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "idNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "picture": {
+            "type": "string",
+            "nullable": true
+          },
+          "courses": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CourseDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StudentDto": {
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateofBirth": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "idNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "picture": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
