@@ -1,5 +1,6 @@
 
 using AutoMapper;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using StudentEnrollment.Api.Configurations;
 using StudentEnrollment.Data;
@@ -19,6 +20,10 @@ namespace StudentEnrollment.Api
             builder.Services.AddDbContext<StudentEnrollmentDbContext>(options => {
                 options.UseSqlServer(conn);
             });
+
+            builder.Services.AddIdentityCore<SchoolUser>()
+                .AddRoles<IdentityRole>()
+                .AddEntityFrameworkStores<StudentEnrollmentDbContext>();
 
             builder.Services.AddCors(options =>
             {
@@ -58,6 +63,8 @@ namespace StudentEnrollment.Api
             app.MapEnrollmentEndpoints();
 
             app.MapCourseEndpoints();
+
+            app.MapAuthenticationEndpoints();
 
             app.Run();
         } 
