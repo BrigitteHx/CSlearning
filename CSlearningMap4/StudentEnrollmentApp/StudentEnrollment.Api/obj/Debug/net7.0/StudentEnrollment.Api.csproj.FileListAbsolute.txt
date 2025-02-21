@@ -263,3 +263,5 @@ C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollment
 C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Api\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Api\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\brigi\Documents\AA - Stage2\CSlearning\CSlearningMap4\StudentEnrollmentApp\StudentEnrollment.Api\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll

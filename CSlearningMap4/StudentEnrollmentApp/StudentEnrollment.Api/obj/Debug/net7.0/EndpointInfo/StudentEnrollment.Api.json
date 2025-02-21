@@ -653,15 +653,15 @@
       "CourseDto": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
           "title": {
             "type": "string",
             "nullable": true
           },
           "credits": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "id": {
             "type": "integer",
             "format": "int32"
           }
@@ -671,13 +671,13 @@
       "CreateCourseDto": {
         "type": "object",
         "properties": {
-          "credits": {
-            "type": "integer",
-            "format": "int32"
-          },
           "title": {
             "type": "string",
             "nullable": true
+          },
+          "credits": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

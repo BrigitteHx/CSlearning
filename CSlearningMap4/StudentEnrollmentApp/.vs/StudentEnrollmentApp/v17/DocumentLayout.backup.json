@@ -7,68 +7,20 @@
       "RelativeMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|solutionrelative:studentenrollment.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{395CB438-6A26-486F-87C7-81C00C751AF5}|StudentEnrollment.Data\\StudentEnrollment.Data.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.data\\studentenrollmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{395CB438-6A26-486F-87C7-81C00C751AF5}|StudentEnrollment.Data\\StudentEnrollment.Data.csproj|solutionrelative:studentenrollment.data\\studentenrollmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.api\\endpoints\\studentendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|solutionrelative:studentenrollment.api\\endpoints\\studentendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.api\\endpoints\\enrollmentendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|solutionrelative:studentenrollment.api\\endpoints\\enrollmentendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{395CB438-6A26-486F-87C7-81C00C751AF5}|StudentEnrollment.Data\\StudentEnrollment.Data.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.data\\schooluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{395CB438-6A26-486F-87C7-81C00C751AF5}|StudentEnrollment.Data\\StudentEnrollment.Data.csproj|solutionrelative:studentenrollment.data\\schooluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{395CB438-6A26-486F-87C7-81C00C751AF5}|StudentEnrollment.Data\\StudentEnrollment.Data.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.data\\configurations\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{395CB438-6A26-486F-87C7-81C00C751AF5}|StudentEnrollment.Data\\StudentEnrollment.Data.csproj|solutionrelative:studentenrollment.data\\configurations\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{395CB438-6A26-486F-87C7-81C00C751AF5}|StudentEnrollment.Data\\StudentEnrollment.Data.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.data\\configurations\\schooluserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{395CB438-6A26-486F-87C7-81C00C751AF5}|StudentEnrollment.Data\\StudentEnrollment.Data.csproj|solutionrelative:studentenrollment.data\\configurations\\schooluserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{395CB438-6A26-486F-87C7-81C00C751AF5}|StudentEnrollment.Data\\StudentEnrollment.Data.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.data\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{395CB438-6A26-486F-87C7-81C00C751AF5}|StudentEnrollment.Data\\StudentEnrollment.Data.csproj|solutionrelative:studentenrollment.data\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.api\\configurations\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|solutionrelative:studentenrollment.api\\configurations\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.api\\endpoints\\authenticationendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|solutionrelative:studentenrollment.api\\endpoints\\authenticationendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.api\\dtos\\errorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|solutionrelative:studentenrollment.api\\dtos\\errorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.api\\dtos\\authentication\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|solutionrelative:studentenrollment.api\\dtos\\authentication\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.api\\dtos\\authentication\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|solutionrelative:studentenrollment.api\\dtos\\authentication\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.api\\dtos\\authentication\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|solutionrelative:studentenrollment.api\\dtos\\authentication\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.api\\endpoints\\studentendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|solutionrelative:studentenrollment.api\\endpoints\\studentendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.api\\endpoints\\courseendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|solutionrelative:studentenrollment.api\\endpoints\\courseendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.api\\services\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|solutionrelative:studentenrollment.api\\services\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.api\\services\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|solutionrelative:studentenrollment.api\\services\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\studentenrollmentapp\\studentenrollment.api\\endpoints\\authenticationendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F351DB10-61EC-4EF2-BA1C-8C776B7DD66D}|StudentEnrollment.Api\\StudentEnrollment.Api.csproj|solutionrelative:studentenrollment.api\\endpoints\\authenticationendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -88,7 +40,7 @@
               "RelativeDocumentMoniker": "StudentEnrollment.Api\\Program.cs",
               "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Program.cs",
               "RelativeToolTip": "StudentEnrollment.Api\\Program.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFsAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAIwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T12:07:33.826Z",
               "IsPinned": true,
@@ -97,66 +49,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StudentEnrollmentDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Data\\StudentEnrollmentDbContext.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Data\\StudentEnrollmentDbContext.cs",
-              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Data\\StudentEnrollmentDbContext.cs",
-              "RelativeToolTip": "StudentEnrollment.Data\\StudentEnrollmentDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Title": "StudentEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Endpoints\\StudentEndpoints.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Api\\Endpoints\\StudentEndpoints.cs",
+              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Endpoints\\StudentEndpoints.cs",
+              "RelativeToolTip": "StudentEnrollment.Api\\Endpoints\\StudentEndpoints.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAIwEcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:58:47.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SchoolUser.cs",
-              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Data\\SchoolUser.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Data\\SchoolUser.cs",
-              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Data\\SchoolUser.cs",
-              "RelativeToolTip": "StudentEnrollment.Data\\SchoolUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:58:32.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRoleConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Data\\Configurations\\UserRoleConfiguration.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Data\\Configurations\\UserRoleConfiguration.cs",
-              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Data\\Configurations\\UserRoleConfiguration.cs",
-              "RelativeToolTip": "StudentEnrollment.Data\\Configurations\\UserRoleConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:57:50.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SchoolUserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Data\\Configurations\\SchoolUserConfiguration.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Data\\Configurations\\SchoolUserConfiguration.cs",
-              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Data\\Configurations\\SchoolUserConfiguration.cs",
-              "RelativeToolTip": "StudentEnrollment.Data\\Configurations\\SchoolUserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:57:27.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RoleConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Data\\Configurations\\RoleConfiguration.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Data\\Configurations\\RoleConfiguration.cs",
-              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Data\\Configurations\\RoleConfiguration.cs",
-              "RelativeToolTip": "StudentEnrollment.Data\\Configurations\\RoleConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:57:17.023Z",
+              "WhenOpened": "2025-02-21T10:10:07.902Z",
               "EditorCaption": ""
             },
             {
@@ -167,139 +67,35 @@
               "RelativeDocumentMoniker": "StudentEnrollment.Api\\Endpoints\\EnrollmentEndpoints.cs",
               "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Endpoints\\EnrollmentEndpoints.cs",
               "RelativeToolTip": "StudentEnrollment.Api\\Endpoints\\EnrollmentEndpoints.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwC4AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAIwFsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:52:28.644Z",
+              "WhenOpened": "2025-02-21T10:10:00.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MapperConfig.cs",
-              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Configurations\\MapperConfig.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Api\\Configurations\\MapperConfig.cs",
-              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Configurations\\MapperConfig.cs",
-              "RelativeToolTip": "StudentEnrollment.Api\\Configurations\\MapperConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:56:07.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ErrorResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\DTOs\\ErrorResponseDto.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Api\\DTOs\\ErrorResponseDto.cs",
-              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\DTOs\\ErrorResponseDto.cs",
-              "RelativeToolTip": "StudentEnrollment.Api\\DTOs\\ErrorResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:55:35.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\DTOs\\Authentication\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Api\\DTOs\\Authentication\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\DTOs\\Authentication\\RegisterDto.cs",
-              "RelativeToolTip": "StudentEnrollment.Api\\DTOs\\Authentication\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:54:33.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\DTOs\\Authentication\\LoginDto.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Api\\DTOs\\Authentication\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\DTOs\\Authentication\\LoginDto.cs",
-              "RelativeToolTip": "StudentEnrollment.Api\\DTOs\\Authentication\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:54:20.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AuthResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\DTOs\\Authentication\\AuthResponseDto.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Api\\DTOs\\Authentication\\AuthResponseDto.cs",
-              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\DTOs\\Authentication\\AuthResponseDto.cs",
-              "RelativeToolTip": "StudentEnrollment.Api\\DTOs\\Authentication\\AuthResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:54:08.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StudentEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Endpoints\\StudentEndpoints.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Api\\Endpoints\\StudentEndpoints.cs",
-              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Endpoints\\StudentEndpoints.cs",
-              "RelativeToolTip": "StudentEnrollment.Api\\Endpoints\\StudentEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:52:37.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthenticationEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Endpoints\\AuthenticationEndpoints.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Api\\Endpoints\\AuthenticationEndpoints.cs",
-              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Endpoints\\AuthenticationEndpoints.cs",
-              "RelativeToolTip": "StudentEnrollment.Api\\Endpoints\\AuthenticationEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T15:17:18.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "CourseEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Endpoints\\CourseEndpoints.cs",
               "RelativeDocumentMoniker": "StudentEnrollment.Api\\Endpoints\\CourseEndpoints.cs",
               "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Endpoints\\CourseEndpoints.cs",
               "RelativeToolTip": "StudentEnrollment.Api\\Endpoints\\CourseEndpoints.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAIwFYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAIwGcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:52:03.508Z",
+              "WhenOpened": "2025-02-21T10:09:46.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AuthManager.cs",
-              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Services\\AuthManager.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Api\\Services\\AuthManager.cs",
-              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Services\\AuthManager.cs",
-              "RelativeToolTip": "StudentEnrollment.Api\\Services\\AuthManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AuthenticationEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Endpoints\\AuthenticationEndpoints.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Api\\Endpoints\\AuthenticationEndpoints.cs",
+              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Endpoints\\AuthenticationEndpoints.cs",
+              "RelativeToolTip": "StudentEnrollment.Api\\Endpoints\\AuthenticationEndpoints.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAIwFAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:51:27.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IAuthManager.cs",
-              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Services\\IAuthManager.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Api\\Services\\IAuthManager.cs",
-              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\StudentEnrollmentApp\\StudentEnrollment.Api\\Services\\IAuthManager.cs",
-              "RelativeToolTip": "StudentEnrollment.Api\\Services\\IAuthManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:46:45.319Z",
+              "WhenOpened": "2025-02-21T10:09:38.496Z",
               "EditorCaption": ""
             }
           ]
