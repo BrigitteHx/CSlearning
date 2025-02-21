@@ -346,7 +346,7 @@
     "Parameters": [
       {
         "Name": "loginDto",
-        "Type": "StudentEnrollment.Api.Endpoints.AuthenticationEndpoints\u002BLoginDto",
+        "Type": "StudentEnrollment.Api.DTOs.Authentication.LoginDto",
         "IsRequired": true
       }
     ],
@@ -355,12 +355,48 @@
         "Type": "System.Void",
         "MediaTypes": [],
         "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
       }
     ],
     "Tags": [
       "Authentication"
     ],
     "EndpointName": "Login"
+  },
+  {
+    "ContainingType": "StudentEnrollment.Api.Endpoints.AuthenticationEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAuthenticationEndpoints\u003Eb__0_1",
+    "RelativePath": "api/register/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "StudentEnrollment.Api.DTOs.Authentication.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Authentication"
+    ],
+    "EndpointName": "Register"
   },
   {
     "ContainingType": "StudentEnrollment.Api.Endpoints.StudentEndpoints\u002B\u003C\u003Ec",

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using StudentEnrollment.Api.DTOs.Course;
 using StudentEnrollment.Data;
@@ -10,7 +11,7 @@ public static class CourseEndpoints
 {
     public static void MapCourseEndpoints(this IEndpointRouteBuilder routes)
     {
-        routes.MapGet("/api/Course", async (ICourseRepository repo, IMapper mapper) =>
+        routes.MapGet("/api/Course", [AllowAnonymous] async (ICourseRepository repo, IMapper mapper) =>
         {
             var courses = await repo.GetAllAsync();
             var data = mapper.Map<List<CourseDto>>(courses);
@@ -27,6 +28,7 @@ public static class CourseEndpoints
                     ? Results.Ok(mapper.Map<CourseDto>(model))
                     : Results.NotFound();
         })
+        .AllowAnonymous()
         .WithTags(nameof(Course))
         .WithName("GetCourseById")
         .Produces<CourseDto>(StatusCodes.Status200OK)
@@ -73,7 +75,7 @@ public static class CourseEndpoints
         .WithName("CreateCourse")
         .Produces<Course>(StatusCodes.Status201Created);
 
-        routes.MapDelete("/api/Course/{id}", async (int Id, ICourseRepository repo) =>
+        routes.MapDelete("/api/Course/{id}", [Authorize(Roles = "Administrator")] async (int Id, ICourseRepository repo) =>
         {
             return await repo.DeleteAsync(Id) ? Results.NoContent() : Results.NotFound();
         })

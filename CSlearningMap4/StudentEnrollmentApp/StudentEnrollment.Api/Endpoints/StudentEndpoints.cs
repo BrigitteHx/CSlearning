@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using StudentEnrollment.Api.DTOs.Course;
 using StudentEnrollment.Api.DTOs.Student;
@@ -17,6 +18,7 @@ public static class StudentEndpoints
             var data = mapper.Map<List<StudentDto>>(students);
             return data;
         })
+        .AllowAnonymous()
         .WithTags(nameof(Student))
         .WithName("GetAllStudents")
         .Produces<List<StudentDto>>(StatusCodes.Status200OK);
@@ -28,6 +30,7 @@ public static class StudentEndpoints
                     ? Results.Ok(mapper.Map<StudentDto>(model))
                     : Results.NotFound();
         })
+        .AllowAnonymous()
         .WithTags(nameof(Student))
         .WithName("GetStudentById")
         .Produces<StudentDto>(StatusCodes.Status200OK)
@@ -45,7 +48,7 @@ public static class StudentEndpoints
         .Produces<StudentDetailsDto>(StatusCodes.Status200OK)
         .Produces(StatusCodes.Status404NotFound);
 
-        routes.MapPut("/api/Student/{id}", async (int Id, StudentDto studentDto, IStudentRepository repo, IMapper mapper) =>
+        routes.MapPut("/api/Student/{id}", [Authorize(Roles = "Administrator")] async (int Id, StudentDto studentDto, IStudentRepository repo, IMapper mapper) =>
         {
             var foundModel = await repo.GetAsync(Id);
 
@@ -63,7 +66,7 @@ public static class StudentEndpoints
         .Produces(StatusCodes.Status404NotFound)
         .Produces(StatusCodes.Status204NoContent);
 
-        routes.MapPost("/api/Student/", async (CreateStudentDto studentDto, IStudentRepository repo, IMapper mapper) =>
+        routes.MapPost("/api/Student/", [Authorize(Roles = "Administrator")] async (CreateStudentDto studentDto, IStudentRepository repo, IMapper mapper) =>
         {
             var student = mapper.Map<Student>(studentDto);
             await repo.AddAsync(student);
@@ -73,7 +76,7 @@ public static class StudentEndpoints
         .WithName("CreateStudent")
         .Produces<Student>(StatusCodes.Status201Created);
 
-        routes.MapDelete("/api/Student/{id}", async (int Id, IStudentRepository repo, IMapper mapper) =>
+        routes.MapDelete("/api/Student/{id}", [Authorize(Roles = "Administrator")] async (int Id, IStudentRepository repo, IMapper mapper) =>
         {
             return await repo.DeleteAsync(Id) ? Results.NoContent() : Results.NotFound();
         })

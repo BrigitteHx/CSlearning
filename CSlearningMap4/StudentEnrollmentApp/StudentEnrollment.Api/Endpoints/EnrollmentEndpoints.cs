@@ -1,8 +1,11 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
+using NuGet.Configuration;
 using StudentEnrollment.Api.DTOs.Enrollment;
 using StudentEnrollment.Data;
 using StudentEnrollment.Data.Contracts;
+using System.Data;
 
 namespace StudentEnrollment.Api.Endpoints;
 
@@ -32,7 +35,7 @@ public static class EnrollmentEndpoints
         .Produces<EnrollmentDto>(StatusCodes.Status200OK)
         .Produces(StatusCodes.Status404NotFound);
 
-        routes.MapPut("/api/Enrollment/{id}", async (int Id, EnrollmentDto enrollmentDto, IEnrollmentRepository repo, IMapper mapper) =>
+        routes.MapPut("/api/Enrollment/{id}", [Authorize(Roles = "Administrator")] async (int Id, EnrollmentDto enrollmentDto, IEnrollmentRepository repo, IMapper mapper) =>
         {
             var foundModel = await repo.GetAsync(Id);
 
@@ -61,7 +64,7 @@ public static class EnrollmentEndpoints
         .WithName("CreateEnrollment")
         .Produces<Enrollment>(StatusCodes.Status201Created);
 
-        routes.MapDelete("/api/Enrollment/{id}", async (int Id, IEnrollmentRepository repo, IMapper mapper) =>
+        routes.MapDelete("/api/Enrollment/{id}", [Authorize(Roles = "Administrator")] async (int Id, IEnrollmentRepository repo, IMapper mapper) =>
         {
             return await repo.DeleteAsync(Id) ? Results.NoContent() : Results.NotFound();
         })

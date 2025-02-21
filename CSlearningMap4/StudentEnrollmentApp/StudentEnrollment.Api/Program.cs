@@ -1,72 +1,92 @@
-
-using AutoMapper;
-using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using StudentEnrollment.Api.Configurations;
 using StudentEnrollment.Data;
 using StudentEnrollment.Api.Endpoints;
+using StudentEnrollment.Api.Configurations;
 using StudentEnrollment.Data.Contracts;
 using StudentEnrollment.Data.Repositories;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using System.Text;
+using StudentEnrollment.Api.Services;
+using Microsoft.AspNetCore.Authorization;
+using AutoMapper;
 
-namespace StudentEnrollment.Api
-{
-    public class Program
-    {
-        public static void Main(string[] args)
+var builder = WebApplication.CreateBuilder(args);
+
+var conn = builder.Configuration.GetConnectionString("StudentEnrollmentDbConnection");
+builder.Services.AddDbContext<StudentEnrollmentDbContext>(options => {
+    options.UseSqlServer(conn);
+});
+
+builder.Services.AddIdentityCore<SchoolUser>()
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<StudentEnrollmentDbContext>();
+
+builder.Services.AddAuthentication(options => {
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+    .AddJwtBearer(options => {
+        options.TokenValidationParameters = new TokenValidationParameters
         {
-            var builder = WebApplication.CreateBuilder(args);
+            ValidateIssuer = true,
+            ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
+            ValidateAudience = true,
+            ValidAudience = builder.Configuration["JwtSettings:Audience"],
+            ValidateLifetime = true,
+            ClockSkew = TimeSpan.Zero,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]))
+        };
+    });
 
-            var conn = builder.Configuration.GetConnectionString("StudentEnrollmentDbConnection");
-            builder.Services.AddDbContext<StudentEnrollmentDbContext>(options => {
-                options.UseSqlServer(conn);
-            });
+builder.Services.AddAutoMapper(typeof(MapperConfig));
 
-            builder.Services.AddIdentityCore<SchoolUser>()
-                .AddRoles<IdentityRole>()
-                .AddEntityFrameworkStores<StudentEnrollmentDbContext>();
+builder.Services.AddAuthorization(options => {
+    options.FallbackPolicy = new AuthorizationPolicyBuilder()
+    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+    .RequireAuthenticatedUser()
+    .Build();
+});
 
-            builder.Services.AddCors(options =>
-            {
-                options.AddPolicy("AllowAll", policy => policy.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
-            });
+// Add services to the container.
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
-            // Add services to the container.
-            builder.Services.AddAuthorization();
+builder.Services.AddScoped<IEnrollmentRepository, EnrollmentRepository>();
+builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddScoped<IAuthManager, AuthManager>();
 
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
 
-            builder.Services.AddScoped<IEnrollmentRepository, EnrollmentRepository>();
-            builder.Services.AddScoped<IStudentRepository, StudentRepository>();
-            builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddCors(options => {
+    options.AddPolicy("AllowAll", policy => policy.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
+});
 
-            builder.Services.AddAutoMapper(typeof(MapperConfig));
+var app = builder.Build();
 
-            var app = builder.Build();
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+app.UseAuthentication();
+app.UseAuthorization();
 
-            app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
-            app.UseCors("AllowAll");
+app.UseCors("AllowAll");
 
-            app.UseAuthorization();
+app.MapStudentEndpoints();
 
-            app.MapStudentEndpoints();
+app.MapEnrollmentEndpoints();
 
-            app.MapEnrollmentEndpoints();
+app.MapCourseEndpoints();
 
-            app.MapCourseEndpoints();
+app.MapAuthenticationEndpoints();
 
-            app.MapAuthenticationEndpoints();
-
-            app.Run();
-        } 
-    }
-} 
+app.Run();
