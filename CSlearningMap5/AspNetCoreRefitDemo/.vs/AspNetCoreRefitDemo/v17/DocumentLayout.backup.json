@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\aspnetcorerefitdemo\\aspnetcorerefitdemo\\controllers\\moviedbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|solutionrelative:aspnetcorerefitdemo\\controllers\\moviedbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\aspnetcorerefitdemo\\aspnetcorerefitdemo\\models\\responsebody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|solutionrelative:aspnetcorerefitdemo\\models\\responsebody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\aspnetcorerefitdemo\\aspnetcorerefitdemo\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|solutionrelative:aspnetcorerefitdemo\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\aspnetcorerefitdemo\\aspnetcorerefitdemo\\services\\itmdbapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|solutionrelative:aspnetcorerefitdemo\\services\\itmdbapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\aspnetcorerefitdemo\\aspnetcorerefitdemo\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|solutionrelative:aspnetcorerefitdemo\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\aspnetcorerefitdemo\\aspnetcorerefitdemo\\models\\movielist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|solutionrelative:aspnetcorerefitdemo\\models\\movielist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\aspnetcorerefitdemo\\aspnetcorerefitdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|solutionrelative:aspnetcorerefitdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\aspnetcorerefitdemo\\aspnetcorerefitdemo\\models\\actorlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|solutionrelative:aspnetcorerefitdemo\\models\\actorlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|c:\\users\\brigi\\documents\\aa - stage2\\cslearning\\cslearningmap4\\aspnetcorerefitdemo\\aspnetcorerefitdemo\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A6228A-EBBB-47A5-AB88-2832DCEEA437}|AspNetCoreRefitDemo\\AspNetCoreRefitDemo.csproj|solutionrelative:aspnetcorerefitdemo\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResponseBody.cs",
+              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Models\\ResponseBody.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRefitDemo\\Models\\ResponseBody.cs",
+              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Models\\ResponseBody.cs",
+              "RelativeToolTip": "AspNetCoreRefitDemo\\Models\\ResponseBody.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:53:55.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Models\\Rating.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRefitDemo\\Models\\Rating.cs",
+              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Models\\Rating.cs",
+              "RelativeToolTip": "AspNetCoreRefitDemo\\Models\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:53:39.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MovieList.cs",
+              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Models\\MovieList.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRefitDemo\\Models\\MovieList.cs",
+              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Models\\MovieList.cs",
+              "RelativeToolTip": "AspNetCoreRefitDemo\\Models\\MovieList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:51:35.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRefitDemo\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Models\\Movie.cs",
+              "RelativeToolTip": "AspNetCoreRefitDemo\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:51:18.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieDbController.cs",
+              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Controllers\\MovieDbController.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRefitDemo\\Controllers\\MovieDbController.cs",
+              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Controllers\\MovieDbController.cs",
+              "RelativeToolTip": "AspNetCoreRefitDemo\\Controllers\\MovieDbController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:49:58.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITmdbApi.cs",
+              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Services\\ITmdbApi.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRefitDemo\\Services\\ITmdbApi.cs",
+              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Services\\ITmdbApi.cs",
+              "RelativeToolTip": "AspNetCoreRefitDemo\\Services\\ITmdbApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:28:02.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ActorList.cs",
+              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Models\\ActorList.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRefitDemo\\Models\\ActorList.cs",
+              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Models\\ActorList.cs",
+              "RelativeToolTip": "AspNetCoreRefitDemo\\Models\\ActorList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:26:08.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Actor.cs",
+              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Models\\Actor.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRefitDemo\\Models\\Actor.cs",
+              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Models\\Actor.cs",
+              "RelativeToolTip": "AspNetCoreRefitDemo\\Models\\Actor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:25:44.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Program.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRefitDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\brigi\\Documents\\AA - Stage2\\CSlearning\\CSlearningMap4\\AspNetCoreRefitDemo\\AspNetCoreRefitDemo\\Program.cs",
+              "RelativeToolTip": "AspNetCoreRefitDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:23:30.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

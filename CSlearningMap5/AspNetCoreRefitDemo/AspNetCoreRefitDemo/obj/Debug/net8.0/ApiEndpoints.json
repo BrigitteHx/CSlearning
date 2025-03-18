@@ -1,0 +1,111 @@
+[
+  {
+    "ContainingType": "AspNetCoreRefitDemo.Controllers.MovieDbController",
+    "Method": "GetActors",
+    "RelativePath": "api/MovieDb/actors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ActorList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AspNetCoreRefitDemo.Controllers.MovieDbController",
+    "Method": "GetMovies",
+    "RelativePath": "api/MovieDb/actors/{actorId}/movies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "actorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AspNetCoreRefitDemo.Models.MovieList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AspNetCoreRefitDemo.Controllers.MovieDbController",
+    "Method": "AddRating",
+    "RelativePath": "api/MovieDb/movies/{movieId}/rating",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movieId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rating",
+        "Type": "AspNetCoreRefitDemo.Models.Rating",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AspNetCoreRefitDemo.Models.ResponseBody",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AspNetCoreRefitDemo.Controllers.MovieDbController",
+    "Method": "DeleteRating",
+    "RelativePath": "api/MovieDb/movies/{movieId}/rating",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movieId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AspNetCoreRefitDemo.Models.ResponseBody",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
